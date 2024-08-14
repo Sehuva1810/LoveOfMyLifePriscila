@@ -9,7 +9,7 @@ let month = Math.floor(value / (1000 * 60 * 60 * 24 * 30.4375));
 let year = Math.floor(value / (1000 * 60 * 60 * 24 * 365.25));
 
 console.log(value);
-console.log('deployed, TE AMO PRIS');
+console.log('deployed, TE AMO PRIS MUCHO MUCHO');
 
 document.getElementById('days').textContent = day.toString();
 document.getElementById('months').textContent = month.toString();
