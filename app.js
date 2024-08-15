@@ -59,6 +59,11 @@ let soundBarsLottie = bodymovin.loadAnimation({
 
 let trackList = [
     {
+        name: 'Close to you',
+        artist: 'Carpenters',
+        path: './music/close-to-you.mp3'
+    },
+    {
         name: 'Your existence',
         artist: 'Wonstein',
         path: './music/your-existence.mp3'
@@ -96,6 +101,7 @@ function loadTrack(trackIndex) {
     trackArtist.textContent = trackList[trackIndex].artist;
     currentTrack.addEventListener('ended', nextTrack);
     currentTrack.load();
+    playTrack();
 }
 
 loadTrack(trackIndex);
