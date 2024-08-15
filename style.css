@@ -19,6 +19,12 @@ body {
     background-repeat: no-repeat; /* This prevents the image from repeating */
 }
 
+.title-sorry{
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+}
+
 .first-card {
     background-color: #e6cfa7 !important;
 }
