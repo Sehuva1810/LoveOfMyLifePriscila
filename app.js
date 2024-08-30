@@ -87,7 +87,12 @@ let trackList = [
         name: 'The Only One',
         artist: 'Reyne',
         path: './music/the only one.mp3'
-    } 
+    },
+    {
+        name: 'Labios Rotos',
+        artist: 'Zoe',
+        path: './music/zoe-labio-rotos.mp3'
+    }  
 ];
 
 // EVENT LISTENERS
